@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     heroContent.style.animation = 'fadeIn 2s ease-in-out';
   }
 
-  // Fullscreen functionality
+  // Updated fullscreen functionality 
   const fullscreenBtn = document.querySelector('.fullscreen-btn');
   
   fullscreenBtn.addEventListener('click', function() {
@@ -30,4 +30,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
-
